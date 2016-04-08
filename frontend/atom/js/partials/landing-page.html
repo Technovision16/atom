@@ -1,0 +1,68 @@
+<div ng-controller="land_ctrl">
+	<div class="back">
+		<div class="back-image">
+		</div>
+
+		<div class="content">
+			<div class="intro">
+				Bringing Together Student and Placements at one place!
+
+			</div>
+			<form>
+				<input type="text" placeholder="search students and faculties">
+				<div class="search"><i class="fa fa-search"></i></div>
+
+
+
+			</form>
+		</div>
+
+
+
+		<div class="arrow left">
+			<i class="fa fa-chevron-left"></i>
+		</div>
+		<div class="arrow right">
+			<i class="fa fa-chevron-right"></i>
+		</div>
+		<div class="horiz-scroll">
+
+
+			<div class="inner">
+
+				<ul>
+
+					<li ng-repeat="x in details">
+						<img ng-src="images/{{x.image}}.jpg">
+						<div class="name-stu">Ranked #{{x.rank}}
+							<br>
+							<br>{{x.name}}</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+	</div>
+
+	<div class="placement">
+		<h3>Companies Visited</h3>
+		<div class="row">
+			<div class=" comp col col-4"><img src="images/{{placements[0].name}}.jpg"></div>
+			<div class="comp col col-4"><img src="images/{{placements[1].name}}.jpg"></div>
+			<div class="comp col col-4"><img src="images/{{placements[2].name}}.jpg"></div>
+
+		</div>
+		<div class="row">
+			<div class="comp col col-4"><img src="images/{{placements[3].name}}.jpg"></div>
+			<div class="comp col col-4"><img src="images/{{placements[4].name}}.jpg"></div>
+			<div class="comp col col-4"><img src="images/{{placements[5].name}}.jpg"></div>
+
+		</div>
+		<h4>More are coming!</h4>
+		<div class="footer">
+			copyright<i class="fa fa-copyright"></i>JSS ACADEMY OF TECHNICAL EDUCATION
+		</div>
+	</div>
+
+
+</div>
