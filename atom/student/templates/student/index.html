@@ -1,2 +1,97 @@
-<h1>Index Page</h1>
-<a href="{% url 'student:login' %}"><button>Login</button></a>
+<html>
+
+<head>
+
+	<title>
+		Atom-JSS portal
+	</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="css/default.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/font-awesome.css">
+
+	<script src="js/jquery.js"></script>
+	<script src="js/angular.min.js"></script>
+	<script src="js/angular-route.js"></script>
+
+</head>
+
+<body ng-app="Atom">
+
+
+	<div class="login-modal">
+
+		<div class="cross">
+			<i class="fa fa-times"></i>
+		</div>
+
+		<div class="form">
+			<h2> LOGIN </h2>
+
+			<form>
+				<input type="text" placeholder="Username">
+				<br>
+				<input type="password" placeholder="Password">
+				<br>
+				<div class="submit">Submit</div>
+			</form>
+		</div>
+
+	</div>
+
+	<div class="header" ng-controller="land_ctrl">
+		<div class="row">
+			<div class="logo col col-3">
+				<img src="images/logo.png">
+
+			</div>
+			<div class="links col col-9">
+				<ul>
+					<li>
+						<a href="#">Home</a>
+
+
+					</li>
+					<li>
+						<a href="#">Students</a>
+					</li>
+					<li>
+						<a href="#">Teachers</a>
+					</li>
+					<li>
+						<a href="#">Placements</a>
+					</li>
+					<li>
+						<a href="#" ng-click='login()'>Login</a>
+					</li>
+
+				</ul>
+			</div>
+		</div>
+
+	</div>
+
+
+
+	<ng-view></ng-view>
+
+
+
+
+	<!-- scripts=================== -->
+
+	<script src="js/app/app.js"></script>
+
+
+	<!--	directives========================-->
+	<script src="js/directives/landing.js"></script>
+	<!--	controllers==================== -->
+	<script src="js/controllers/maincontroller.js"></script>
+
+	<!--	services===-->
+	<script src="js/services/data.js"></script>
+	<script src="js/services/placement.js"></script>
+</body>
+
+</html>
