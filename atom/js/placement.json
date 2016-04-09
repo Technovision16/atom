@@ -1,0 +1,43 @@
+[{
+		"company": "Info-Edge",
+		"package": 6.4,
+		"no_recruits": 4,
+		"name": "p1"
+},
+	{
+		"company": "ION Tech",
+		"package": 10.5,
+		"no_recruits": 6,
+		"name": "p2"
+},
+	{
+		"company": "TechMahindra",
+		"package": 4.2,
+		"no_recruits": 50,
+		"name": "p3"
+},
+	{
+		"company": "IP",
+		"package": 6.4,
+		"no_recruits": 4,
+		"name": "p4"
+},
+	{
+		"company": "Tata Consultancy Services",
+		"package": 3.8,
+		"no_recruits": 190,
+		"name": "p5"
+},
+	{
+		"company": "Wipro",
+		"package": 5.4,
+		"no_recruits": 60,
+		"name": "p6"
+},
+	{
+		"company": "Algoworks",
+		"package": 6.4,
+		"no_recruits": 20,
+		"name": "p7"
+}
+]

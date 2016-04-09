@@ -1,0 +1,21 @@
+<div class="student-container" ng-controller="land_ctrl">
+
+	<div class="stu-content">
+		<ul>
+			<li ng-repeat="x in details">
+				<div class="stu-img">
+					<img src="images/{{x.image}}.jpg">
+
+				</div>
+				<div class="stu-detail">
+					<h2>{{x.name}}</h2>
+
+					<h3>{{x.batch}}</h3>
+					<div class="like"><i class="fa fa-thumbs-up"></i> &nbsp; {{x.likes}}
+					</div>
+				</div>
+
+			</li>
+		</ul>
+	</div>
+</div>
