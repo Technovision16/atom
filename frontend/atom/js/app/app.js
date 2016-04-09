@@ -13,9 +13,9 @@ app.config(['$routeProvider', '$locationProvider', function ($routeProvider, $lo
 		templateUrl: '/Socialcops-sachin/partials/visual2.html',
 		controller: 'Visual2'
 	}).
-	when('/visual/3', {
-		templateUrl: '/Socialcops-sachin/partials/visual3.html',
-		controller: 'Visual3'
+	when('/student', {
+		templateUrl: '/atom/js/partials/student-portfolio.html'
+
 	}).
 	otherwise({
 		templateUrl: '/atom/js/partials/landing-page.html'

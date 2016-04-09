@@ -1,0 +1,163 @@
+[
+	{
+		"name": "Abhi kumar",
+		"roll_no": 1209110001,
+		"year": "IV",
+		"batch": "Computer & Science",
+		"email": "abhikumar@gmail.com",
+		"contact": 9015153393,
+		"skills": {
+			"web": "HTML",
+			"software": "Visual Studio"
+		},
+		"academics": "89%",
+		"image": "one",
+		"rank": 1,
+		"likes": 389
+},
+	{
+		"name": "Abhi kapoor",
+		"roll_no": 1209110004,
+		"year": "IV",
+		"batch": "Computer & Science",
+		"email": "abhikapoor@gmail.com",
+		"contact": 9015152393,
+		"skills": {
+			"web": "HTML",
+			"software": "Visual Studio"
+		},
+		"academics": "83%",
+		"image": "two",
+		"rank": 2,
+		"likes": 354
+},
+	{
+		"name": "Anway jain",
+		"roll_no": 1209110006,
+		"year": "II",
+		"batch": "Computer & Science",
+		"email": "anwayjain@gmail.com",
+		"contact": 9015456234,
+		"skills": {
+			"web": "HTML",
+			"software": "Visual Studio"
+		},
+		"academics": "80%",
+		"image": "three",
+		"rank": 3,
+		"likes": 308
+},
+	{
+		"name": "Deepti garg",
+		"roll_no": 1409113045,
+		"year": "II",
+		"batch": "Information Technology",
+		"email": "deeptigarg@gmail.com",
+		"contact": 9453456123,
+		"skills": {
+			"web": "HTML",
+			"software": "Visual Studio"
+		},
+		"academics": "79%",
+		"image": "four",
+		"rank": 4,
+		"likes": 278
+},
+	{
+		"name": "Shivangi Garg",
+		"roll_no": 1409110096,
+		"year": "II",
+		"batch": "Computer & Science",
+		"email": "shivangigarg@gmail.com",
+		"contact": 9014678361,
+		"skills": {
+			"web": "HTML",
+			"software": "Visual Studio"
+		},
+		"academics": "86%",
+		"image": "five",
+		"rank": 5,
+		"likes": 256
+},
+	{
+		"name": "Ipsa",
+		"roll_no": 1309110019,
+		"year": "III",
+		"batch": "Computer & Science",
+		"email": "ipsa07@gmail.com",
+		"contact": 9456219054,
+		"skills": {
+			"web": "HTML",
+			"software": "Visual Studio"
+		},
+		"academics": "87%",
+		"image": "six",
+		"rank": 6,
+		"likes": 234
+},
+	{
+		"name": "Astha Singh",
+		"roll_no": 1309113011,
+		"year": "III",
+		"batch": "Information Technology",
+		"email": "asthasingh@gmail.com",
+		"contact": 9457852963,
+		"skills": {
+			"web": "HTML",
+			"software": "Visual Studio"
+		},
+		"academics": "80%",
+		"image": "seven",
+		"rank": 7,
+		"likes": 202
+},
+	{
+		"name": "Prachi",
+		"roll_no": 1309110041,
+		"year": "III",
+		"batch": "Mechanical Engineering",
+		"email": "prachigurudev@gmail.com",
+		"contact": 9456741547,
+		"skills": {
+			"web": "HTML",
+			"software": "Visual Studio"
+		},
+		"academics": "74%",
+		"image": "eight",
+		"rank": 8,
+		"likes": 176
+},
+	{
+		"name": "Anmol",
+		"roll_no": 1209110003,
+		"year": "IV",
+		"batch": "Civil Engineering",
+		"email": "anmolveenu@gmail.com",
+		"contact": 9913456723,
+		"skills": {
+			"web": "HTML",
+			"software": "Visual Studio"
+		},
+		"academics": "78%",
+		"image": "nine",
+		"rank": 9,
+		"likes": 365
+},
+	{
+		"name": "Rachit",
+		"roll_no": 1209110045,
+		"year": "IV",
+		"batch": "Information Technology",
+		"email": "rachit17@gmail.com",
+		"contact": 9919420018,
+		"skills": {
+			"web": "HTML",
+			"software": "Visual Studio"
+		},
+		"academics": "79%",
+		"image": "ten",
+		"rank": 10,
+		"likes": 453
+}
+
+]

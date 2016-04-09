@@ -1,0 +1,398 @@
+body {
+	font-family: 'Brandon Regular';
+}
+
+.header {
+	position: absolute;
+	z-index: 10;
+	display: block;
+	width: 100%;
+	padding: 15px 50px 15px 30px;
+	color: #fff;
+	/*	border: 1px solid red;*/
+}
+
+.logo {
+	height: 40px;
+}
+
+.logo img {
+	height: 100%;
+}
+
+.links,
+.logo {
+	/*	border: 1px solid red;*/
+}
+
+.links ul {
+	margin-top: 10px;
+	float: right;
+}
+
+.links ul li {
+	display: inline;
+	margin-left: 20px;
+	cursor: pointer;
+}
+
+.links ul li a {
+	color: #ddd;
+	font-size: 1em;
+	transition: all 0.2s ease-in-out;
+}
+
+.links ul li a:hover {
+	color: #fff;
+}
+
+.back {
+	background-color: rgba(12, 43, 81, 1);
+	text-align: center;
+	display: block;
+	width: 100%;
+	height: 100vh;
+}
+
+.back-image {
+	position: fixed;
+	background-image: url(../images/Mainbuilding.JPG);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 0px -100px;
+	width: 100%;
+	height: 100vh;
+	z-index: 0;
+	opacity: 0.2;
+}
+
+.intro {
+	width: 100%;
+	text-transform: uppercase;
+	position: absolute;
+	margin: 200px 0px 0px 0px;
+	color: white;
+	font-size: 1.5em;
+	margin-right: auto;
+	margin-left: auto;
+	left: 0;
+	right: 0;
+	font-family: 'geo';
+}
+
+form {
+	margin-top: 250px;
+	position: relative;
+	display: inline-block;
+}
+
+form input {
+	background-color: rgba(255, 255, 255, 0.5);
+	color: whitesmoke;
+	border-radius: 4px;
+	border: 0px solid #fff;
+	padding: 12px;
+	width: 450px;
+	transition: all 0.2s ease;
+	font-family: 'Brandon Regular';
+	font-size: 1em;
+}
+
+input:focus {
+	background: #fff;
+	color: #4d4d4d;
+	font-family: 'Brandon Regular';
+}
+
+input::-webkit-input-placeholder {
+	color: #fff;
+}
+
+input:focus::-webkit-input-placeholder {
+	color: #9d9d9d;
+}
+
+.content {
+	position: absolute;
+	z-index: 1;
+	width: 100%;
+}
+
+form .search {
+	position: absolute;
+	right: 0px;
+	top: 16px;
+	right: 12px;
+	cursor: pointer;
+	color: #fff;
+}
+
+.search i {
+	transition: all 0.2s ease;
+}
+
+input:focus ~ .search i {
+	color: #9d9d9d;
+}
+
+input:focus ~ .search i:hover {
+	color: #252525;
+}
+
+
+/*login====*/
+
+.login-modal {
+	width: 100%;
+	height: 100vh;
+	background: rgba(0, 0, 0, 0.9);
+	position: absolute;
+	z-index: 15;
+}
+
+.cross {
+	position: absolute;
+	top: 20px;
+	right: 30px;
+	font-size: 1.2em;
+	color: #fff;
+	cursor: pointer;
+}
+
+.form {
+	display: block;
+	width: 100%;
+	position: relative;
+	text-align: center;
+}
+
+.form form {
+	margin-top: 10px;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0px;
+	right: 0px;
+	text-align: center;
+}
+
+.form form input {
+	display: inline-block;
+	margin-top: 15px;
+}
+
+.form h2 {
+	color: #fff;
+	font-family: 'geo';
+	margin-top: 200px;
+}
+
+.submit {
+	display: inline-block;
+	padding: 10px 20px;
+	border-radius: 2px;
+	background: #fff;
+	font-family: 'Brandon Bold';
+	color: #4d4d4d;
+	margin-top: 15px;
+	transition: all 0.2s ease-in-out;
+	cursor: pointer;
+}
+
+.submit:hover {
+	background-color: rgba(255, 255, 255, 0.2);
+	color: #fff;
+}
+
+.horiz-scroll {
+	margin-left: auto;
+	margin-right: auto;
+	left: 0px;
+	right: 0px;
+	width: 90%;
+	height: 180px;
+	background: transparent;
+	/*	border: 1px solid red;*/
+	position: absolute;
+	bottom: 50px;
+	overflow-x: hidden;
+}
+
+.inner {
+	width: 1680px;
+	/*	border: 1px solid red;*/
+}
+
+.inner ul li {
+	float: left;
+	display: inline-block;
+	width: 120px;
+	height: 145px;
+	background: #fff;
+	border-radius: 2px;
+	overflow: hidden;
+	margin: 0px 20px 0px 20px;
+	position: relative;
+	cursor: pointer;
+}
+
+.inner ul li img {
+	width: 100%;
+}
+
+.arrow {
+	z-index: 5;
+	text-align: center;
+	margin-top: 64px;
+	display: block;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	position: absolute;
+	background: rgba(255, 255, 255, 0.7);
+	cursor: pointer;
+	bottom: 120px;
+	transition: all 0.2s ease-in-out;
+}
+
+.arrow:hover {
+	background: rgba(255, 255, 255, 1);
+}
+
+.arrow i {
+	line-height: 40px;
+}
+
+.left {
+	float: left;
+	left: 40px;
+}
+
+.right {
+	float: right;
+	right: 40px;
+}
+
+.name-stu {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(255, 255, 255, 0.7);
+	bottom: 0px;
+	left: 0px;
+	padding: 9px;
+	height: 30px;
+	font-family: 'Brandon Bold';
+	color: #4d4d4d;
+	font-size: 0.8em;
+	transition: all 0.2s ease-in-out;
+}
+
+.inner ul li:hover .name-stu {
+	height: 100%;
+	padding: 70px 0px 0px 0px;
+}
+
+.placement {
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 100vh;
+	background: #fff;
+	top: 100vh;
+}
+
+.placement h3 {
+	margin: 20px 0px 0px 40px;
+	font-family: 'geo';
+	font-size: 1em;
+}
+
+.comp {
+	text-align: center;
+	display: block;
+	height: 160px;
+	position: relative;
+	margin-top: 60px;
+	padding: 20px;
+	transition: all 0.2s ease-in-out;
+	cursor: pointer;
+}
+
+.comp img {
+	height: 100%;
+}
+
+.footer {
+	display: block;
+	width: 100%;
+	padding: 20px 40px;
+	border-top: 1px solid #9d9d9d;
+	position: absolute;
+	bottom: 0px;
+	text-transform: uppercase;
+	font-family: 'geo';
+	font-size: 0.8em;
+	color: #9d9d9d;
+}
+
+h4 {
+	color: #9d9d9d;
+	font-family: 'geo';
+	margin: 60px 40px;
+	float: right;
+}
+
+.comp:hover {
+	box-shadow: 0px 0px 4px #9d9d9d;
+}
+
+.student-container {
+	background-color: rgba(12, 43, 81, 1);
+	width: 100%;
+	padding: 40px;
+}
+
+.stu-content {
+	padding-top: 70px;
+	display: block;
+	width: 100%;
+	height: 300%;
+	color: #4d4d4d;
+}
+
+.stu-content ul li {
+	display: inline-block;
+	width: 40%;
+	float: left;
+	background: #fff;
+	height: 150px;
+	border-radius: 2px;
+	margin: 20px 40px;
+}
+
+.stu-content ul li .stu-img {
+	width: 120px;
+	height: 100%;
+	overflow: hidden;
+	display: inline-block;
+	float: left;
+}
+
+.stu-img img {
+	width: 100%;
+}
+
+.stu-detail {
+	display: inline-block;
+	float: left;
+	padding: 20px;
+}
+
+.stu-detail h3 {
+	margin-top: 7px;
+}
+
+.like {
+	margin-top: 10px;
+}
